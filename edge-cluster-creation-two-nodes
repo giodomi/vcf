@@ -1,0 +1,77 @@
+{
+    "edgeAdminPassword": "",
+    "edgeAuditPassword": "",
+    "edgeClusterName": "",
+    "edgeClusterProfileSpec": {
+        "bfdAllowedHop": 0,
+        "bfdDeclareDeadMultiple": 0,
+        "bfdProbeInterval": 0,
+        "edgeClusterProfileName": "",
+        "standbyRelocationThreshold": 0
+    },
+    "edgeClusterProfileType": "DEFAULT",
+    "edgeClusterType": "NSX-T",
+    "edgeFormFactor": "LARGE",
+    "edgeNodeSpecs": [ { 
+	    "clusterId": "",
+        "edgeNodeName": "",
+        "edgeTep1IP": "",
+        "edgeTep2IP": "",
+        "edgeTepGateway": "",
+        "edgeTepVlan": 0,
+        "firstNsxVdsUplink": "uplink1",
+        "interRackCluster": false,
+        "managementGateway": "",
+        "managementIP": "",
+        "secondNsxVdsUplink": "uplink2",
+        "uplinkNetwork": [ {
+                 "uplinkVlan": 0,
+                 "uplinkInterfaceIP": "string",
+                 "peerIP": "string",
+                 "asnPeer": 0
+        },
+{
+                 "uplinkVlan": 0,
+                 "uplinkInterfaceIP": "string",
+                 "peerIP": "string",
+                 "asnPeer": 0
+		}
+		],
+        "vmManagementPortgroupName": ""
+    },
+	{ 
+	    "clusterId": "",
+        "edgeNodeName": "",
+        "edgeTep1IP": "",
+        "edgeTep2IP": "",
+        "edgeTepGateway": "",
+        "edgeTepVlan": 0,
+        "firstNsxVdsUplink": "uplink1",
+        "interRackCluster": false,
+        "managementGateway": "",
+        "managementIP": "",
+        "secondNsxVdsUplink": "uplink2",
+        "uplinkNetwork": [ {
+                 "uplinkVlan": 0,
+                 "uplinkInterfaceIP": "string",
+                 "peerIP": "string",
+                 "asnPeer": 0
+        },
+{
+                 "uplinkVlan": 0,
+                 "uplinkInterfaceIP": "string",
+                 "peerIP": "string",
+                 "asnPeer": 0
+		}
+		],
+        "vmManagementPortgroupName": ""
+    } ],
+    "edgeRootPassword": "",
+    "mtu": 9000,
+    "skipTepRoutabilityCheck": false,
+    "tier0Name": "",
+    "tier0RoutingType": "EBGP",
+    "tier0ServicesHighAvailability": "ACTIVE_ACTIVE",
+    "tier1Name": "",
+    "tier1Unhosted": false
+}
